@@ -37,6 +37,15 @@ import bcs from "../assets/brands/Logo-Banco-Caja-Social.svg";
 import reading from "../assets/components/reading.png";
 import intro from "../assets/components/buen-vecino.gif";
 import buenVecino from "../assets/components/buen-vecino-novena.png";
+import uniIbagueLogo from "../assets/brands/logo_unibague.svg";
+import novenaTexto from "../assets/brands/novena_aguinaldos_1.svg";
+import introFamily from "../assets/brands/intro.svg";
+import headerOfficial from "../assets/components/header.png"
+import web from "../assets/components/web.svg";
+import novenaTextoSecond from "../assets/brands/novena_aguinaldos_2.svg";
+import facebook from "../assets/components/icon_facebook.svg"
+import linkedin from "../assets/components/icon_linkedin.svg"
+import instagram from "../assets/components/icon_instagram.svg"
 
 export {
   one,
@@ -78,4 +87,13 @@ export {
   reading,
   intro,
   buenVecino,
+  uniIbagueLogo,
+  novenaTexto,
+  novenaTextoSecond,
+  introFamily,
+  headerOfficial,
+  web,
+  facebook,
+  linkedin,
+  instagram
 };

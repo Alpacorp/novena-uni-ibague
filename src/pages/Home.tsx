@@ -1,3 +1,4 @@
+import React from "react";
 import { Link } from "react-router-dom";
 import "./Pages.css";
 import {
@@ -8,9 +9,12 @@ import {
   five,
   six,
   seven,
-  MainTitle,
-  bcs,
-  buenVecino,
+  novenaTextoSecond,
+  uniIbagueLogo,
+  web,
+  facebook,
+  linkedin,
+  instagram
 } from "../assets";
 import BrandLogo from "../components/BrandLogo";
 import Header from "../components/Header";
@@ -18,9 +22,27 @@ import Header from "../components/Header";
 const Home = () => {
   return (
     <>
-      <Header show={false} />
-      <BrandLogo src={bcs} alt="Banco Caja Social, Su Banco Amigo" />
-      <BrandLogo src={MainTitle} alt="novena de aguinaldos" />
+      <Header show={true} />
+      <BrandLogo src={uniIbagueLogo} alt="Universidad de Ibagué" style={{height: "80px"}} />
+      <div style={{textAlign: "center", margin: "1rem auto"}}>
+        <a href="https://www.unibague.edu.co/" target="blank">
+          <img src={web} alt="www.unibague.edu.co" style={{maxWidth: "300px", width: "100%", margin: "0 auto"}} />
+        </a>
+      </div>
+      <div style={{display: "flex", justifyContent: "center", alignItems: "center", margin: "1rem auto", gap: "1rem" }}>
+        <a href="" target="blank">
+          <img src={facebook} alt="" style={{maxWidth: "40px", width: "100%", margin: "0 auto"}} />
+        </a>
+        <a href="" target="blank">
+          <img src={instagram} alt="" style={{maxWidth: "4 0px", width: "100%", margin: "0 auto"}} />
+        </a>
+        <a href="" target="blank">
+          <img src={linkedin} alt="" style={{maxWidth: "40px", width: "100%", margin: "0 auto"}} />
+        </a>
+      </div>
+      <div style={{textAlign: "center", margin: "1rem auto"}}>
+          <img src={novenaTextoSecond} alt="Novena de aguinaldos" style={{maxWidth: "400px", width: "100%", margin: "0 auto"}} />
+      </div>
       <p className="instructive">Sigue cada paso y reza en familia</p>
       <div className="mainMenu">
         <Link to="/novena/oracion-para-todos-los-dias" className="menuOption">
@@ -60,9 +82,6 @@ const Home = () => {
         <Link to="/novena/villancicos" className="menuOption">
           <img src={seven} alt="villancicos" title="Paso 7, villancicos" />
         </Link>
-      </div>
-      <div className="buenVecino">
-        <img src={buenVecino} alt="buen vecino" />
       </div>
     </>
   );

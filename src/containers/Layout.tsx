@@ -1,4 +1,4 @@
-import { FC, useEffect, useState } from "react";
+import React, { FC, useEffect, useState } from "react";
 import Footer from "../components/Footer";
 import Intro from "../components/Intro";
 
@@ -13,7 +13,7 @@ const Layout: FC<LayoutProps> = ({ children }) => {
     setShowIntro(true);
     setTimeout(() => {
       setShowIntro(false);
-    }, 7000);
+    }, 3000);
   }, []);
 
   return (

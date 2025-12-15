@@ -1,5 +1,6 @@
+import React from "react";
 import BrandLogo from "./BrandLogo";
-import { bcs, MainTitle, intro } from "../assets";
+import { introFamily, uniIbagueLogo, novenaTexto } from "../assets";
 import { FC } from "react";
 
 const Intro: FC = () => {
@@ -7,17 +8,17 @@ const Intro: FC = () => {
     <>
       <div className="introModal">
         <div className="introContent">
-          <BrandLogo src={bcs} alt="Banco Caja Social, Su Banco Amigo" />
+          <BrandLogo src={uniIbagueLogo} alt="Universidad de Ibagué" style={{height: "150px"}} />
           <div className="familyImage">
             <img
-              src={intro}
+              src={introFamily}
               alt="Bienvenida del Buen Vecino"
               title="Bienvenida del Buen Vecino"
             />
           </div>
           <div className="novenaImage">
             <img
-              src={MainTitle}
+              src={novenaTexto}
               alt="Novena de Aguinaldos"
               title="Novena de Aguinaldos"
             />

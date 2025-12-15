@@ -30,14 +30,14 @@ const Home = () => {
         </a>
       </div>
       <div style={{display: "flex", justifyContent: "center", alignItems: "center", margin: "0.5rem auto", gap: "1rem" }}>
-        <a href="" target="blank">
-          <img src={facebook} alt="" style={{maxWidth: "40px", width: "100%", margin: "0 auto"}} />
+        <a href="https://www.facebook.com/SoyUnibague" target="blank">
+          <img src={facebook} alt="Logo de Facebook" style={{maxWidth: "40px", width: "100%", margin: "0 auto"}} />
         </a>
-        <a href="" target="blank">
-          <img src={instagram} alt="" style={{maxWidth: "40px", width: "100%", margin: "0 auto"}} />
+        <a href="https://www.instagram.com/soyunibague" target="blank">
+          <img src={instagram} alt="Logo de Instagram" style={{maxWidth: "40px", width: "100%", margin: "0 auto"}} />
         </a>
-        <a href="" target="blank">
-          <img src={linkedin} alt="" style={{maxWidth: "40px", width: "100%", margin: "0 auto"}} />
+        <a href="https://www.linkedin.com/school/universidad-de-ibagu%C3%A9" target="blank">
+          <img src={linkedin} alt="Logo de LinkedIN" style={{maxWidth: "40px", width: "100%", margin: "0 auto"}} />
         </a>
       </div>
       <div style={{textAlign: "center", margin: "0.5rem auto"}}>

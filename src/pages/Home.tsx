@@ -34,7 +34,7 @@ const Home = () => {
           <img src={facebook} alt="" style={{maxWidth: "40px", width: "100%", margin: "0 auto"}} />
         </a>
         <a href="" target="blank">
-          <img src={instagram} alt="" style={{maxWidth: "4 0px", width: "100%", margin: "0 auto"}} />
+          <img src={instagram} alt="" style={{maxWidth: "40px", width: "100%", margin: "0 auto"}} />
         </a>
         <a href="" target="blank">
           <img src={linkedin} alt="" style={{maxWidth: "40px", width: "100%", margin: "0 auto"}} />

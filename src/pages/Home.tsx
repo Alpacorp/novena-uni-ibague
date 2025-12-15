@@ -22,14 +22,14 @@ import Header from "../components/Header";
 const Home = () => {
   return (
     <>
-      <Header show={true} />
+      <Header show={false} />
       <BrandLogo src={uniIbagueLogo} alt="Universidad de Ibagué" style={{height: "80px"}} />
-      <div style={{textAlign: "center", margin: "1rem auto"}}>
+      <div style={{textAlign: "center", margin: "0.5rem auto"}}>
         <a href="https://www.unibague.edu.co/" target="blank">
           <img src={web} alt="www.unibague.edu.co" style={{maxWidth: "300px", width: "100%", margin: "0 auto"}} />
         </a>
       </div>
-      <div style={{display: "flex", justifyContent: "center", alignItems: "center", margin: "1rem auto", gap: "1rem" }}>
+      <div style={{display: "flex", justifyContent: "center", alignItems: "center", margin: "0.5rem auto", gap: "1rem" }}>
         <a href="" target="blank">
           <img src={facebook} alt="" style={{maxWidth: "40px", width: "100%", margin: "0 auto"}} />
         </a>
@@ -40,8 +40,8 @@ const Home = () => {
           <img src={linkedin} alt="" style={{maxWidth: "40px", width: "100%", margin: "0 auto"}} />
         </a>
       </div>
-      <div style={{textAlign: "center", margin: "1rem auto"}}>
-          <img src={novenaTextoSecond} alt="Novena de aguinaldos" style={{maxWidth: "400px", width: "100%", margin: "0 auto"}} />
+      <div style={{textAlign: "center", margin: "0.5rem auto"}}>
+          <img src={novenaTextoSecond} alt="Novena de aguinaldos" style={{maxWidth: "350px", width: "100%", margin: "0 auto"}} />
       </div>
       <p className="instructive">Sigue cada paso y reza en familia</p>
       <div className="mainMenu">

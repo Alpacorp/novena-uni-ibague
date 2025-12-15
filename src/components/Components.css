@@ -115,7 +115,7 @@
 
 @media screen and (max-width: 600px) {
   .header {
-    background-position: center right;
+    background-position: center;
   }
   .footer {
     background-size: 150px;

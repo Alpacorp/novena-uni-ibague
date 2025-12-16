@@ -1,3 +1,4 @@
+import React from "react";
 import { dayfour } from "../../assets";
 import DayImgDate from "../../components/DayImgDate";
 import Header from "../../components/Header";

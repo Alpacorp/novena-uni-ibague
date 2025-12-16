@@ -1,3 +1,4 @@
+import React from "react";
 import Back from "../../components/Back";
 import backButtonIcon from "../../assets/components/volver.svg";
 import Header from "../../components/Header";
@@ -14,7 +15,7 @@ const Campana = () => {
             <p>Campana sobre campana</p>
             <p>Y sobre campana una</p>
             <p>Asómate a la ventana</p>
-            <p>Verás el niño en la cuna</p>
+            <p>Verás al niño en la cuna</p>
           </div>
           <div className="text-sing">
             <p>Belén, campanas de Belén</p>

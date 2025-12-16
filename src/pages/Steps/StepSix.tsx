@@ -1,3 +1,4 @@
+import React from "react";
 import { sixPage } from "../../assets";
 import DayImgDate from "../../components/DayImgDate";
 import Header from "../../components/Header";
@@ -13,7 +14,7 @@ const StepSix = () => {
         <Slide />
         <div className="stepText">
           <p>
-            Acordaos, ¡oh dulcísimo Niño Jesús! que dijisteis a la venerable
+            Acordaos, ¡oh dulcísimo Niño Jesús! que dijísteis a la venerable
             Margarita del Santísimo Sacramento, y en persona suya a todos
             vuestros devotos, estas palabras tan consoladoras para nuestra pobre
             humanidad, agobiada y doliente.

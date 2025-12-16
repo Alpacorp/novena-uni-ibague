@@ -1,3 +1,4 @@
+import React from "react";
 import { onePage, reading } from "../../assets";
 import DayImgDate from "../../components/DayImgDate";
 import Header from "../../components/Header";
@@ -13,7 +14,7 @@ const StepOne = () => {
         <Slide />
         <div className="stepText">
           <p>
-            Benignísimo Dios de infinita caridad, que tanto amasteis a los
+            Benignísimo Dios de infinita caridad, que tanto amásteis a los
             hombres, que les disteis en vuestro Hijo la mejor prenda de vuestro
             amor, para que hecho hombre en las entrañas de una Virgen, naciese
             en un pesebre para nuestra salud y remedio; yo, en nombre de todos

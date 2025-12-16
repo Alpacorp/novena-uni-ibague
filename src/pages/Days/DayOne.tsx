@@ -1,3 +1,4 @@
+import React from "react";
 import { dayone } from "../../assets";
 import DayImgDate from "../../components/DayImgDate";
 import Header from "../../components/Header";
@@ -25,7 +26,7 @@ const DayOne = () => {
           </p>
           <p>
             Allí es donde debemos buscar sus principios que jamás han
-            comenzando; de allí debemos datar la genealogía de lo eterno, que no
+            comenzado; de allí debemos datar la genealogía de lo eterno, que no
             tiene antepasados y contemplar la vida de complacencia infinita que
             allí llevaba.
           </p>

@@ -1,3 +1,4 @@
+import React from "react";
 import { reading, threePage } from "../../assets";
 import DayImgDate from "../../components/DayImgDate";
 import Header from "../../components/Header";
@@ -14,14 +15,14 @@ const StepThree = () => {
         <div className="stepText">
           <p>
             Soberana María, que por vuestras grandes virtudes, y especialmente
-            por vuestra humildad, merecisteis que todo un Dios os escogiese por
+            por vuestra humildad, merecísteis que todo un Dios os escogiese por
             madre suya, os suplico que vos misma preparéis y dispongáis mi alma,
             y la de todos los que en este tiempo hicieren esta novena, para el
             nacimiento espiritual de vuestro adorado Hijo.
           </p>
           <p>
             ¡Oh dulcísima Madre! Comunicadme algo del profundo recogimiento y
-            divina ternura con que le aguardasteis vos, para que nos hagáis
+            divina ternura con que le aguardásteis vos, para que nos hagáis
             menos indignos de verle, amarle y adorarle por toda la eternidad.
           </p>
           <p>Amén</p>

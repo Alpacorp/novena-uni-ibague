@@ -1,3 +1,4 @@
+import React from "react";
 import Back from "../../components/Back";
 import "./Sings.css";
 import backButtonIcon from "../../assets/components/volver.svg";

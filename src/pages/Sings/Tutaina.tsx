@@ -1,3 +1,4 @@
+import React from "react";
 import Back from "../../components/Back";
 import backButtonIcon from "../../assets/components/volver.svg";
 import Header from "../../components/Header";
@@ -11,9 +12,9 @@ const Tutaina = () => {
         <h2>Tutaina</h2>
         <div className="stepText sings">
           <div className="text-sing">
-            <p>Tutaina tuturuma</p>
+            <p>Tutaina tuturumá</p>
             <p>Tutaina tuturumaina</p>
-            <p>Tutaina tuturuma turuma</p>
+            <p>Tutaina tuturumá turuma</p>
             <p>Tutaina tuturumaina</p>
           </div>
           <div className="text-sing">
@@ -23,9 +24,9 @@ const Tutaina = () => {
             <p>Los reciben con cariño</p>
           </div>
           <div className="text-sing">
-            <p>Tutaina tuturuma</p>
+            <p>Tutaina tuturumá</p>
             <p>Tutaina tuturumaina</p>
-            <p>Tutaina tuturuma turuma</p>
+            <p>Tutaina tuturumá turuma</p>
             <p>Tutaina tuturumaina</p>
           </div>
           <div className="text-sing">
@@ -35,9 +36,9 @@ const Tutaina = () => {
             <p>Con el más grande tesoro</p>
           </div>
           <div className="text-sing">
-            <p>Tutaina tuturuma</p>
+            <p>Tutaina tuturumá</p>
             <p>Tutaina tuturumaina</p>
-            <p>Tutaina tuturuma turuma</p>
+            <p>Tutaina tuturumá turuma</p>
             <p>Tutaina tuturumaina</p>
           </div>
           <div className="text-sing">
@@ -47,9 +48,9 @@ const Tutaina = () => {
             <p>De los cielos el Mesías</p>
           </div>
           <div className="text-sing">
-            <p>Tutaina tuturuma</p>
+            <p>Tutaina tuturumá</p>
             <p>Tutaina tuturumaina</p>
-            <p>Tutaina tuturuma turuma</p>
+            <p>Tutaina tuturumá turuma</p>
             <p>Tutaina tuturumaina</p>
           </div>
         </div>

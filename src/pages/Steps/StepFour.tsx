@@ -1,3 +1,4 @@
+import React from "react";
 import { fourPage, reading } from "../../assets";
 import DayImgDate from "../../components/DayImgDate";
 import Header from "../../components/Header";
@@ -19,7 +20,7 @@ const StepFour = () => {
             excelente grandeza.
           </p>
           <p>
-            Os ruego, por el amor que tuvisteis al divino Niño, me abraséis en
+            Os ruego, por el amor que tuvisteis al divino Niño, me abracéis en
             fervorosos deseos de verle y recibirle sacramentalmente, mientras en
             su divina esencia le veo y le gozo en el Cielo.
           </p>

@@ -1,3 +1,4 @@
+import React from "react";
 import { useState } from "react";
 import DayImgDate from "../../components/DayImgDate";
 import Slide from "../../components/Slide";
@@ -8,7 +9,7 @@ import Header from "../../components/Header";
 const StepFive = () => {
   const [counter, setCounter] = useState(0);
 
-  let dataInfo = data.filter((item) => item.id === counter);
+  const dataInfo = data.filter((item) => item.id === counter);
 
   const next = () => {
     setCounter(counter + 1);
@@ -38,22 +39,24 @@ const StepFive = () => {
             {counter <= 0 ? (
               ""
             ) : (
-              <img
-                src={beforeIcon}
+              <button
+                type="button"
                 onClick={before}
                 className="buttonBefore"
-                alt="Anterior"
                 title="Anterior"
-              />
+              >
+                <img src={beforeIcon} alt="Anterior" />
+              </button>
             )}
             {counter < 12 ? (
-              <img
-                src={afterIcon}
+              <button
+                type="button"
                 onClick={next}
                 className="buttonAfter"
-                alt="siguente"
-                title="Siguente"
-              />
+                title="Siguiente"
+              >
+                <img src={afterIcon} alt="Siguiente" />
+              </button>
             ) : (
               ""
             )}
